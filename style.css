@@ -72,11 +72,12 @@ button:focus-visible {
   z-index: -2;
   object-fit: cover;
   object-position: center 46%;
+  opacity: 0.62;
 }
 
 .hero__shade {
   z-index: -1;
-  background: rgba(10, 20, 18, 0.7);
+  background: rgba(10, 20, 18, 0.38);
 }
 
 .hero__content {
