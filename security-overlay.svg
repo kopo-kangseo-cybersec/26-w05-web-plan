@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" fill="none">
+  <circle cx="320" cy="320" r="270" stroke="#C8F169" stroke-opacity=".48" stroke-width="1.5" />
+  <circle cx="320" cy="320" r="222" stroke="#F3F4EF" stroke-opacity=".3" stroke-width="1" stroke-dasharray="3 10" />
+  <path d="M320 94 477 153v130c0 113-62 201-157 256-95-55-157-143-157-256V153l157-59Z" stroke="#C8F169" stroke-width="3" />
+  <path d="M320 132 442 178v104c0 88-46 158-122 207-76-49-122-119-122-207V178l122-46Z" stroke="#F3F4EF" stroke-opacity=".78" stroke-width="1.5" />
+  <path d="M320 94V45m0 550v-56M94 320H45m550 0h-49M160 160l-35-35m390 390-35-35m0-320 35-35m-390 390 35-35" stroke="#C8F169" stroke-width="2" />
+  <path d="M320 218v-34m0 272v-34m102-102h34m-272 0h34" stroke="#C8F169" stroke-width="2" />
+  <circle cx="320" cy="320" r="67" stroke="#C8F169" stroke-width="2" />
+  <circle cx="320" cy="320" r="39" stroke="#F3F4EF" stroke-opacity=".8" stroke-width="1.5" />
+  <path d="M320 289c-13 0-23 10-23 23v9h46v-9c0-13-10-23-23-23Z" stroke="#F3F4EF" stroke-width="2" />
+  <rect x="289" y="321" width="62" height="48" rx="4" stroke="#F3F4EF" stroke-width="2" />
+  <circle cx="320" cy="342" r="4" fill="#C8F169" />
+  <path d="M320 346v10" stroke="#C8F169" stroke-width="2" />
+  <path d="M211 320h-43m304 0h-43M320 211v-43m0 304v-43" stroke="#C8F169" stroke-opacity=".8" stroke-width="1.5" stroke-dasharray="4 6" />
+  <circle cx="320" cy="45" r="4" fill="#C8F169" />
+  <circle cx="595" cy="320" r="4" fill="#C8F169" />
+  <circle cx="320" cy="595" r="4" fill="#C8F169" />
+  <circle cx="45" cy="320" r="4" fill="#C8F169" />
+</svg>
