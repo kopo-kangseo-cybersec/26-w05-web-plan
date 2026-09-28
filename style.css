@@ -84,7 +84,11 @@ img { display: block; max-width: 100%; }
   grid-template-columns: 1fr 1fr;
   overflow: hidden;
   color: var(--white);
-  background: var(--ink);
+  background-color: var(--ink);
+  background-image: linear-gradient(rgba(19, 39, 32, .72), rgba(19, 39, 32, .72)), url("./security-shield.png");
+  background-repeat: no-repeat;
+  background-position: center, 43% center;
+  background-size: auto, clamp(320px, 36vw, 470px) auto;
 }
 .hero::before {
   position: absolute;
@@ -220,7 +224,7 @@ img { display: block; max-width: 100%; }
   .primary-nav a { padding: 12px 4px; border-bottom: 1px solid var(--line); font-size: 13px; }
   .primary-nav a:last-child { border-bottom: 0; }
   .primary-nav a::after { display: none; }
-  .hero { display: flex; min-height: 0; flex-direction: column; }
+  .hero { display: flex; min-height: 0; flex-direction: column; background-position: center, 96% 14%; background-size: auto, 250px auto; }
   .hero::before { display: none; }
   .hero-copy { width: 100%; padding: 62px 25px 39px; }
   .eyebrow { margin-bottom: 20px; font-size: 9px; }
