@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#10211e">
+    <meta name="description" content="가드라인은 취약점 진단, 모의해킹, 보안 컨설팅으로 조직의 디지털 자산을 지킵니다.">
+    <title>가드라인 | 신뢰를 지키는 보안 파트너</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+
+    <header class="site-header">
+      <a class="brand" href="#hero" aria-label="가드라인 홈">
+        <span class="brand__mark" aria-hidden="true">G</span>
+        <span class="brand__name">GUARDLINE<span class="brand__dot">.</span></span>
+      </a>
+
+      <nav class="site-nav" aria-label="주요 메뉴">
+        <button class="menu-toggle" type="button" aria-controls="primary-links" aria-expanded="false" aria-label="메뉴 열기">
+          <span class="menu-toggle__line"></span>
+          <span class="menu-toggle__line"></span>
+        </button>
+        <ul class="site-nav__links" id="primary-links">
+          <li><a href="#hero">Hero</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="hero" aria-labelledby="hero-title">
+        <img class="hero__image" src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&amp;fit=crop&amp;w=2400&amp;q=85" alt="보안 장비가 정돈된 데이터센터 서버 랙" fetchpriority="high">
+        <div class="hero__content">
+          <p class="eyebrow"><span class="status-dot"></span> SECURITY, BUILT ON TRUST</p>
+          <h1 id="hero-title">디지털 신뢰를<br>지키는 <span>가장 단단한 선.</span></h1>
+          <p class="hero__intro">보이지 않는 위협을 먼저 발견하고,<br class="desktop-break"> 비즈니스가 멈추지 않도록 함께 대비합니다.</p>
+          <div class="hero__actions">
+            <a class="button button--lime" href="#services">보안 서비스 살펴보기 <span aria-hidden="true">↗</span></a>
+            <a class="text-link text-link--light" href="#contact">보안 상담 문의 <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+        <div class="hero__index" aria-hidden="true"><span>01</span> / 04</div>
+        <a class="hero__scroll" href="#services"><span class="hero__scroll-line"></span> SCROLL TO EXPLORE</a>
+        <p class="hero__caption">SECURITY OPERATIONS / SEOUL, KR</p>
+      </section>
+
+      <section class="services section-light" id="services" aria-labelledby="services-title">
+        <div class="section-shell">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow eyebrow--dark">WHAT WE DO <span>／ 01—03</span></p>
+              <h2 id="services-title">위협은 다르게,<br>대응은 <span>정확하게.</span></h2>
+            </div>
+            <p class="section-heading__aside">현장의 맥락을 이해하는 전문가가<br>실행 가능한 보안 해답을 제안합니다.</p>
+          </div>
+
+          <div class="service-grid">
+            <article class="service-card">
+              <div class="service-card__top"><span class="service-card__number">01</span><span class="service-card__symbol service-card__symbol--scan" aria-hidden="true"></span></div>
+              <p class="service-card__tag">FIND THE WEAK POINT</p>
+              <h3>취약점 진단</h3>
+              <p class="service-card__description">시스템과 웹 서비스의 취약 지점을 체계적으로 점검하고 우선순위에 따른 개선 방향을 제시합니다.</p>
+              <a class="service-card__link" href="#contact">자세히 보기 <span aria-hidden="true">↗</span></a>
+            </article>
+            <article class="service-card">
+              <div class="service-card__top"><span class="service-card__number">02</span><span class="service-card__symbol service-card__symbol--target" aria-hidden="true"></span></div>
+              <p class="service-card__tag">THINK LIKE AN ATTACKER</p>
+              <h3>모의해킹</h3>
+              <p class="service-card__description">실제 공격 시나리오를 안전하게 재현해 방어 체계의 빈틈과 대응 역량을 확인합니다.</p>
+              <a class="service-card__link" href="#contact">자세히 보기 <span aria-hidden="true">↗</span></a>
+            </article>
+            <article class="service-card">
+              <div class="service-card__top"><span class="service-card__number">03</span><span class="service-card__symbol service-card__symbol--shield" aria-hidden="true"></span></div>
+              <p class="service-card__tag">BUILD A STRONGER BASE</p>
+              <h3>보안 컨설팅</h3>
+              <p class="service-card__description">조직의 환경과 목표를 바탕으로 현실에 맞는 보안 정책과 단계별 실행 전략을 설계합니다.</p>
+              <a class="service-card__link" href="#contact">자세히 보기 <span aria-hidden="true">↗</span></a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="about" aria-labelledby="about-title">
+        <div class="about__visual" aria-hidden="true">
+          <div class="about__visual-grid"></div>
+          <span class="about__orbit about__orbit--outer"></span>
+          <span class="about__orbit about__orbit--inner"></span>
+          <span class="about__visual-core">G<span>+</span></span>
+          <span class="about__visual-label">TRUST<br>IN EVERY LAYER</span>
+          <span class="about__visual-coordinate">37°33' N / 126°59' E</span>
+        </div>
+        <div class="about__copy">
+          <p class="eyebrow">ABOUT GUARDLINE <span>／ 02—03</span></p>
+          <h2 id="about-title">기술을 넘어,<br><span>신뢰의 기준</span>을 세웁니다.</h2>
+          <p class="about__lead">가드라인은 보안을 복잡한 장벽이 아닌, 더 나은 비즈니스를 위한 기반으로 바라봅니다.</p>
+          <p class="about__body">다양한 산업 현장에서 쌓은 경험과 검증된 방법론을 바탕으로, 지금 필요한 위험을 정확히 짚습니다. 진단에서 개선까지 함께하며 조직이 안심하고 다음 단계로 나아가도록 돕습니다.</p>
+          <div class="about__principles">
+            <div><span>01</span><p>명확한 위험 진단</p></div>
+            <div><span>02</span><p>실행 가능한 개선</p></div>
+            <div><span>03</span><p>끝까지 함께하는 파트너십</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <div class="contact__inner">
+          <div class="contact__intro">
+            <p class="eyebrow eyebrow--dark">LET'S TALK SECURITY <span>／ 03—03</span></p>
+            <h2 id="contact-title">지금, 안전한 다음을<br>함께 준비하세요.</h2>
+            <a class="button button--dark" href="mailto:hello@guardline.example">보안 상담 문의하기 <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="contact__details">
+            <div class="contact__detail"><span>EMAIL</span><a href="mailto:hello@guardline.example">hello@guardline.example</a></div>
+            <div class="contact__detail"><span>PHONE</span><a href="tel:+82200000000">02-0000-0000</a></div>
+            <div class="contact__detail"><span>OFFICE</span><p>서울특별시 중구 세종대로 00, 가드라인 빌딩</p></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand brand--footer" href="#hero" aria-label="가드라인 맨 위로">
+        <span class="brand__mark" aria-hidden="true">G</span>
+        <span class="brand__name">GUARDLINE<span class="brand__dot">.</span></span>
+      </a>
+      <p class="site-footer__note">신뢰를 지키는 보안 파트너</p>
+      <p class="site-footer__copyright">© 2026 GUARDLINE. ALL RIGHTS RESERVED.</p>
+      <a class="site-footer__top" href="#hero">BACK TO TOP <span aria-hidden="true">↑</span></a>
+    </footer>
+  </body>
+</html>
