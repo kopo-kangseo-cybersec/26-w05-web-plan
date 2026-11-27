@@ -156,6 +156,10 @@ button:focus-visible {
   border: 1px solid rgba(255, 255, 255, 0.55);
 }
 
+.menu-toggle {
+  display: none;
+}
+
 .menu-toggle[hidden] {
   display: none;
 }
